@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #1abc9c;
+    margin-top: 50px;
+    height: 500px;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.about-star-line{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-top: 2rem;
+}
+.about-star-line h2{
+    color: white;
+}
+.divider-custom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.divider-custom-line{
+    width: 6rem;
+    height: 0.25rem;
+    background-color: rgb(255, 255, 255);
+    margin:0 2rem;
+    border-radius: 1rem;
+}
+.about-star{
+    margin: 0 2rem;
+    font-size: 2rem;
+    color: white;
+}
+.about-paragraphs{
+    display: flex;
+    justify-content: space-evenly;
+}
+.about-paragraphs p{
+    width: 33%;
+    color: white;
+    font-size: 1.5rem;
+}
+.download-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    border: 2px  solid white;
+    width: 200px;
+    height: 20px;
+    margin-top: 50px;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 50px;
+    gap: 20px;
+    font-size: 1.2rem;
+}

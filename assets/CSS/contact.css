@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.form-group{
+    margin-bottom: 15px;
+}
+.contact-form{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column; 
+}
+.full-name{
+    width: 470px;
+    border: 0 ;
+    border-bottom: 1px solid rgb(206,212 , 218);
+    height: 100px;
+    font-size: 1.5rem;
+    padding: 10px;
+}
+.email{
+    width: 470px;
+    border: 0 ;
+    border-bottom: 1px solid rgb(206,212 , 218);
+    height: 100px;
+    font-size: 1.5rem;
+    padding: 10px;
+}
+.phone-number{
+    width: 470px;
+    border: 0 ;
+    border-bottom: 1px solid rgb(206,212 , 218);
+    height: 100px;
+    font-size: 1.5rem;
+    padding: 10px;
+}
+.message{
+    width: 470px;
+    border: 0 ;
+    border-bottom: 1px solid rgb(206,212 , 218);
+    height: 100px;
+    font-size: 1.5rem;
+    padding: 10px;
+}
+.full-name:focus, .email:focus, .phone-number:focus, .message:focus {
+    outline: none;
+    border-bottom: 1px solid rgb(251, 21, 0);
+}
+.send{
+    width: 100px;
+    height: 50px;
+    background-color:#1abc9c;
+    color: white;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 5px;
+    align-self: flex-start;
+}
